@@ -82,6 +82,7 @@ a:hover {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
 }
 
 h2 {
@@ -177,8 +178,10 @@ input[type=submit] {
 
     nav a {
         width: 200px;
-        display: inline-block;
+        display: none;
         margin-top: 0;
+        text-decoration: none;
+        overflow: hidden;
     }
 
     .name {
