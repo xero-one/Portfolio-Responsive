@@ -162,10 +162,12 @@ input[type=submit] {
     color: #4aaaa5;
 }
 
-@media screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 560px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media screen
+  and (min-width: 0px) 
+  and (max-width: 980px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+  
+  {
     #mypic {
         width: 100%;
         height: auto;
@@ -176,12 +178,11 @@ input[type=submit] {
         width: 100%;
     }  
 
-    nav a {
+    nav {
         width: 200px;
-        display: none;
-        margin-top: 0;
-        text-decoration: none;
-        overflow: hidden;
+        float: none;
+        display: block;
+        margin: 0;
     }
 
     .name {
